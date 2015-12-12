@@ -1,0 +1,279 @@
+/*Hello,
+Use this guide to localize the page for your language
+How localize:
+blocks phrases are separated, then each block is equivalent to a line of information on the page
+each row has seven columns(except for the first line that has more information)
+each column (in-line) has an information
+the 1st column of each row (starting from the 2nd line) has the title (which will be in bold) followed by the information that goes just below.
+
+Example of how localize
+"%title":"" -> "%title":"Moodle Guide for Teachers"
+
+This HTML conversion is based on "Moodle Tool Guide" tab (for moodle 2) made by Joyce Seitzinger
+
+LINKS: http://www.cats-pyjamas.net/moodle-tool-guide/ or
+       http://moodle.bbk.ac.uk/pluginfile.php/5997/mod_resource/content/6/moodle2toolguideforteachers.PDF or
+       http://www.somerandomthoughts.com/blog/2012/03/15/a-moodle-2-version-of-the-moodle-tool-guide/
+
+
+in case of any doubts line and how to locate, send email to: henrique@henriqueog.com
+
+*/
+{
+        //first line of info on page
+        "%title":"",
+        "%info":"",
+        "%What_you_want_to_use":"",
+        "%What_you_want_to_achieve":"",
+        "%Ease_of_use":"",
+        "%Information_Transfer":"",
+        "%Information_Transfer_text":"",
+        "%Assess_learning":"",
+        "%Assess_learning_text":"",
+        "%Communication_and_interaction":"",
+        "%Communication_and_interaction_text":"",
+        "%Co_create_content":"",
+        "%Co_create_content_text":"",
+        "%Bloom_s":"",
+        "%Bloom_s_text":"",
+        "%Bloom_s_text_1":"",
+
+        //file
+        "%recurse_add_archive_column_title":"",
+        "%recurse_add_archive_column_1":"",
+        "%recurse_add_archive_column_2":"",
+        "%recurse_add_archive_column_3":"",
+        "%recurse_add_archive_column_4":"",
+        "%recurse_add_archive_column_5":"",
+        "%recurse_add_archive_column_6":"",
+        "%recurse_add_archive_column_7":"",
+
+        //folder
+        "%recurse_add_folder_column_title":"",
+        "%recurse_add_folder_column_1":"",
+        "%recurse_add_folder_column_2":"",
+        "%recurse_add_folder_column_3":"",
+        "%recurse_add_folder_column_4":"",
+        "%recurse_add_folder_column_5":"",
+        "%recurse_add_folder_column_6":"",
+        "%recurse_add_folder_column_7":"",
+
+        //add page
+        "%recurse_add_page_column_title":"",
+        "%recurse_add_page_column_1":"",
+        "%recurse_add_page_column_2":"",
+        "%recurse_add_page_column_3":"",
+        "%recurse_add_page_column_4":"",
+        "%recurse_add_page_column_5":"",
+        "%recurse_add_page_column_6":"",
+        "%recurse_add_page_column_7":"",
+
+        //book
+        "%recurse_add_book_column_title":"",
+        "%recurse_add_book_column_1":"",
+        "%recurse_add_book_column_2":"",
+        "%recurse_add_book_column_3":"",
+        "%recurse_add_book_column_4":"",
+        "%recurse_add_book_column_5":"",
+        "%recurse_add_book_column_6":"",
+        "%recurse_add_book_column_7":"",
+
+        //web
+        "%recurse_add_web_URL_column_title":"",
+        "%recurse_add_web_URL_column_1":"",
+        "%recurse_add_web_URL_column_2":"",
+        "%recurse_add_web_URL_column_3":"",
+        "%recurse_add_web_URL_column_4":"",
+        "%recurse_add_web_URL_column_5":"",
+        "%recurse_add_web_URL_column_6":"",
+        "%recurse_add_web_URL_column_7":"",
+
+        //wiki
+        "%recurse_wiki_column_title":"",
+        "%recurse_wiki_column_1":"",
+        "%recurse_wiki_column_2":"",
+        "%recurse_wiki_column_3":"",
+        "%recurse_wiki_column_4":"",
+        "%recurse_wiki_column_5":"",
+        "%recurse_wiki_column_6":"",
+        "%recurse_wiki_column_7":"",
+
+        //glossary
+        "%recurse_glossary_column_title":"",
+        "%recurse_glossary_column_1":"",
+        "%recurse_glossary_column_2":"",
+        "%recurse_glossary_column_3":"",
+        "%recurse_glossary_column_4":"",
+        "%recurse_glossary_column_5":"",
+        "%recurse_glossary_column_6":"",
+        "%recurse_glossary_column_7":"",
+
+        //database
+        "%recurse_bd_column_title":"",
+        "%recurse_bd_column_1":"",
+        "%recurse_bd_column_2":"",
+        "%recurse_bd_column_3":"",
+        "%recurse_bd_column_4":"",
+        "%recurse_bd_column_5":"",
+        "%recurse_bd_column_6":"",
+        "%recurse_bd_column_7":"",
+
+        //serach
+        "%recurse_search_column_title":"",
+        "%recurse_search_column_1":"",
+        "%recurse_search_column_2":"",
+        "%recurse_search_column_3":"",
+        "%recurse_search_column_4":"",
+        "%recurse_search_column_5":"",
+        "%recurse_search_column_6":"",
+        "%recurse_search_column_7":"",
+
+        //feedback
+        "%recurse_feedback_column_title":"",
+        "%recurse_feedback_column_1":"",
+        "%recurse_feedback_column_2":"",
+        "%recurse_feedback_column_3":"",
+        "%recurse_feedback_column_4":"",
+        "%recurse_feedback_column_5":"",
+        "%recurse_feedback_column_6":"",
+        "%recurse_feedback_column_7":"",
+
+        //choice
+        "%recurse_choice_column_title":"",
+        "%recurse_choice_column_1":"",
+        "%recurse_choice_column_2":"",
+        "%recurse_choice_column_3":"",
+        "%recurse_choice_column_4":"",
+        "%recurse_choice_column_5":"",
+        "%recurse_choice_column_6":"",
+        "%recurse_choice_column_7":"",
+
+        //quiz
+        "%recurse_quiz_column_title":"",
+        "%recurse_quiz_column_1":"",
+        "%recurse_quiz_column_2":"",
+        "%recurse_quiz_column_3":"",
+        "%recurse_quiz_column_4":"",
+        "%recurse_quiz_column_5":"",
+        "%recurse_quiz_column_6":"",
+        "%recurse_quiz_column_7":"",
+
+        //lesson
+        "%recurse_lesson_column_title":"",
+        "%recurse_lesson_column_1":"",
+        "%recurse_lesson_column_2":"",
+        "%recurse_lesson_column_3":"",
+        "%recurse_lesson_column_4":"",
+        "%recurse_lesson_column_5":"",
+        "%recurse_lesson_column_6":"",
+        "%recurse_lesson_column_7":"",
+
+        //assign
+        "%recurse_assign_column_title":"",
+        "%recurse_assign_column_1":"",
+        "%recurse_assign_column_2":"",
+        "%recurse_assign_column_3":"",
+        "%recurse_assign_column_4":"",
+        "%recurse_assign_column_5":"",
+        "%recurse_assign_column_6":"",
+        "%recurse_assign_column_7":"",
+
+        //workshop
+        "%recurse_workshop_column_title":"",
+        "%recurse_workshop_column_1":"",
+        "%recurse_workshop_column_2":"",
+        "%recurse_workshop_column_3":"",
+        "%recurse_workshop_column_4":"",
+        "%recurse_workshop_column_5":"",
+        "%recurse_workshop_column_6":"",
+        "%recurse_workshop_column_7":"",
+
+        //SCORM
+        "%recurse_scorm_column_title":"",
+        "%recurse_scorm_column_1":"",
+        "%recurse_scorm_column_2":"",
+        "%recurse_scorm_column_3":"",
+        "%recurse_scorm_column_4":"",
+        "%recurse_scorm_column_5":"",
+        "%recurse_scorm_column_6":"",
+        "%recurse_scorm_column_7":"",
+
+        //chat
+        "%recurse_chat_column_title":"",
+        "%recurse_chat_column_1":"",
+        "%recurse_chat_column_2":"",
+        "%recurse_chat_column_3":"",
+        "%recurse_chat_column_4":"",
+        "%recurse_chat_column_5":"",
+        "%recurse_chat_column_6":"",
+        "%recurse_chat_column_7":"",
+
+        //forum
+        "%recurse_forum_column_title":"",
+        "%recurse_forum_column_1":"",
+        "%recurse_forum_column_2":"",
+        "%recurse_forum_column_3":"",
+        "%recurse_forum_column_4":"",
+        "%recurse_forum_column_5":"",
+        "%recurse_forum_column_6":"",
+        "%recurse_forum_column_7":"",
+
+        //mobile
+        "%recurse_mobile_column_title":"",
+        "%recurse_mobile_column_1":"",
+        "%recurse_mobile_column_2":"",
+        "%recurse_mobile_column_3":"",
+        "%recurse_mobile_column_4":"",
+        "%recurse_mobile_column_5":"",
+        "%recurse_mobile_column_6":"",
+        "%recurse_mobile_column_7":"",
+
+        //external tool
+        "%recurse_external_tool_column_title":"",
+        "%recurse_external_tool_column_1":"",
+        "%recurse_external_tool_column_2":"",
+        "%recurse_external_tool_column_3":"",
+        "%recurse_external_tool_column_4":"",
+        "%recurse_external_tool_column_5":"",
+        "%recurse_external_tool_column_6":"",
+        "%recurse_external_tool_column_7":"",
+
+        //footer page info
+        "%great_fit":"",
+        "%can_work_w_some_learning_design":"",
+        "%not_best_tool_for_the_job":"",
+        "%how_to_use_guide":"",
+        "%how_to_use_guide_1":"",
+        "%how_to_use_guide_2":"",
+        "%how_to_use_guide_3":"",
+        "%need_help":"",
+        "%need_help_1":"",
+        "%need_help_2":"",
+        "%need_help_3":"",
+        "%need_help_4":"",
+        "%adaptation_line0":"",
+        "%adaptation_line1":"",
+        "%adaptation_line2":"",
+
+        //wip
+        "%wip_title":"",
+        "%wip_txt1":"",
+        "%wip_txt2":"",
+        "%wip_txt3":"",
+        "%wip_txt4":"",
+
+        //how_to_translate
+        "%howtotranslate_title":"",
+        "%howtotranslate_txt2":"",
+        "%howtotranslate_txt3":"",
+        "%howtotranslate_txt4":"",
+
+        //acknowledgement_texts
+        "%acknowledgement_title":"",
+        "%acknowledgement_1":"",
+        "%acknowledgement_2":"",
+        "%acknowledgement_3":"",
+        "%acknowledgement_4":"",
+        "%acknowledgement_5":"",
+        "%acknowledgement_6":""
+}
